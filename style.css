@@ -1,0 +1,104 @@
+body, h1, form, table {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    --color-blue: #001f3f;
+    --color-white: #ffffff;
+}
+
+body {
+    background-color: var(--color-white);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title__container h1 {
+    margin-bottom: 20px;
+    color: var(--color-blue);
+}
+
+.form__container {
+    background-color: var(--color-blue);
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.form__container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form__container input,
+.form__container select {
+    width: 100%;
+    padding: 8px;
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    box-sizing: border-box;
+}
+
+.form__container button {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    cursor: pointer;
+}
+
+.form__container button:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+}
+
+.taks__container table {
+    width: 600px;
+    text-align: left;
+}
+
+.taks__container th,
+.taks__container td {
+    border: 1px solid var(--color-white);
+    padding: 10px;
+}
+
+.taks__container th {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.taks__container tr {
+    color: var(--color-blue);
+    background-color: var(--color-white);
+}
+
+
+.taks__container button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.taks__container .edit {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.taks__container .delete {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.taks__container .delete:hover {
+    background-color: red;
+    color: var(--color-white);
+}
